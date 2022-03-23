@@ -40,7 +40,7 @@ function getVerticalBlogPosts(width, blogPosts) {
   blogPosts.forEach((blogPost, index) => {
     gridRows[index % rows].push(
       <Grid key={blogPost.id} item xs={12}>
-        <Box mb={3}>
+        <Box mb={1}>
           <BlogCard
             src={blogPost.src}
             title={blogPost.title}
