@@ -28,10 +28,10 @@ function getVerticalBlogPosts(width, blogPosts) {
   let rows;
   let xs;
   if (isWidthUp("md", width)) {
-    rows = 3;
+    rows = 1;
     xs = 4;
   } else if (isWidthUp("sm", width)) {
-    rows = 2;
+    rows = 1;
     xs = 6;
   } else {
     rows = 1;
