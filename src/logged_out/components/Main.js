@@ -38,8 +38,8 @@ function Main(props) {
 
   const selectBlog = useCallback(() => {
     smoothScrollTop();
-    document.title = "WaVer - Blog";
-    setSelectedTab("Blog");
+    document.title = "Products";
+    setSelectedTab("Products");
   }, [setSelectedTab]);
 
   const openLoginDialog = useCallback(() => {
