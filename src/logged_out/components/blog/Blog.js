@@ -24,7 +24,8 @@ const styles = (theme) => ({
 });
 
 function getVerticalBlogPosts(width, blogPosts) {
-  const gridRows = [[], [], []];
+  const gridRows = [[],
+                    []];
   let rows;
   let xs;
   if (isWidthUp("md", width)) {
