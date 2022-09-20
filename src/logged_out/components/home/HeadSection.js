@@ -147,7 +147,7 @@ function HeadSection(props) {
                           href="/"
                           onclick = {getdalle2("cat riding a bike, digital art")}
                         >
-                          Generate
+                          Generate!
                         </Button>
                       </div>
                     </Box>
