@@ -14,7 +14,7 @@ import {
 } from "@material-ui/core";
 import WaveBorder from "../../../shared/components/WaveBorder";
 import ZoomImage from "../../../shared/components/ZoomImage";
-import getdalle2 from "src\logged_out\components\home\dalle.js"
+import getdalle2 from "src/logged_out/components/home/dalle.js"
 
 const styles = (theme) => ({
   extraLargeButtonLabel: {
