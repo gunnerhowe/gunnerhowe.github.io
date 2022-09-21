@@ -144,7 +144,7 @@ function HeadSection(props) {
                           fullWidth
                           className={classes.extraLargeButton}
                           classes={{ label: classes.extraLargeButtonLabel }}
-                          href="/"
+                          //href="/"
                           onclick = {getdalle2("cat riding a bike, digital art")}
                         >
                           Generate!
